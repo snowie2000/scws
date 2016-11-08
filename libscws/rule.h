@@ -61,6 +61,7 @@ typedef struct scws_rule
 
 /* create & load ruleset, by fpath & charset */
 rule_t scws_rule_new(const char *fpath, unsigned char *mblen);
+rule_t scws_rule_new_mem(const char *mem, int nMemsize, unsigned char *mblen);
 
 /* fork ruleset */
 rule_t scws_rule_fork(rule_t r);

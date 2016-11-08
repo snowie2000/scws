@@ -94,6 +94,7 @@ int scws_add_dict(scws_t s, const char *fpath, int mode);
 int scws_set_dict(scws_t s, const char *fpath, int mode);
 void scws_set_charset(scws_t s, const char *cs);
 void scws_set_rule(scws_t s, const char *fpath);
+void scws_set_rule_mem(scws_t s, const char *mem, int memsize);
 
 /* set ignore symbol or multi segments */
 void scws_set_ignore(scws_t s, int yes);
