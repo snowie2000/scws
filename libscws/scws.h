@@ -28,6 +28,7 @@ extern "C" {
 #define	SCWS_MULTI_DUALITY	0x02000		// split every long words(3 chars?) to two chars
 #define SCWS_MULTI_ZMAIN    0x04000		// split to main single chinese char atr = j|a|n?|v?
 #define	SCWS_MULTI_ZALL		0x08000		// attr = ** , all split to single chars
+#define	SCWS_MULTI_SEARCH	0x10000		// split as much as possible to better suits the need of search engines
 #define	SCWS_MULTI_MASK		0xff000		// mask check for multi set
 
 #define	SCWS_ZIS_USED		0x8000000
